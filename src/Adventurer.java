@@ -23,7 +23,7 @@ public class Adventurer extends Entity {
 
     }
 
-
+    public void move()
 
     public int calculateModifier(int abilVal) {
         return (abilVal - 10) / 2;

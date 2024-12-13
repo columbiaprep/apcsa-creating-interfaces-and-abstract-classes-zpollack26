@@ -4,8 +4,12 @@ public class Stats {
     private int currentHP;
     private int maxMP;
     private int currentMP;
-    private int hardiness;
+    private int constitution;
     private int wisdom;
+    private int dexterity;
+    private int intelligence;
+    private int charisma;
+    private int strength;
 
     public String getName() {
         return name;
@@ -47,12 +51,12 @@ public class Stats {
         this.currentMP = currentMP;
     }
 
-    public int getHardiness() {
-        return hardiness;
+    public int getConstitution() {
+        return constitution;
     }
 
-    public void setHardiness(int hardiness) {
-        this.hardiness = hardiness;
+    public void setConstitution(int constitution) {
+        this.constitution = constitution;
     }
 
     public int getWisdom() {
@@ -61,5 +65,37 @@ public class Stats {
 
     public void setWisdom(int wisdom) {
         this.wisdom = wisdom;
+    }
+
+    public int getDexterity() {
+        return dexterity;
+    }
+
+    public void setDexterity(int dexterity) {
+        this.dexterity = dexterity;
+    }
+
+    public int getIntelligence() {
+        return intelligence;
+    }
+
+    public void setIntelligence(int intelligence) {
+        this.intelligence = intelligence;
+    }
+
+    public int getCharisma() {
+        return charisma;
+    }
+
+    public void setCharisma(int charisma) {
+        this.charisma = charisma;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
     }
 }

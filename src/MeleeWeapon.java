@@ -1,5 +1,5 @@
 // Matthew D
-public class MeleeWeapon {
+public class MeleeWeapon extends Weapon{
     private String type;
     private int strength;
     private int damage;
@@ -165,5 +165,9 @@ public class MeleeWeapon {
 
 
         return true;
+    }
+
+    public void swing(){
+
     }
 }
